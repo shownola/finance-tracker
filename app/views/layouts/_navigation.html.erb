@@ -1,3 +1,4 @@
+
  <div class="navbar navbar-default navbar-static-top">
       <div class="container">
         <%= link_to 'Finance Tracker', root_path, class: "navbar-brand" %>
@@ -11,7 +12,7 @@
         
           <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav col-md-6">
-              <li><%= link_to "My Portfolio", my_portfolio_path  %></li>
+               <li><%= link_to "My Portfolio", my_portfolio_path  %></li>
               <li><%= link_to "My Profile", edit_registration_path(current_user) %></li>
               <li><%= link_to "My Friends", my_friends_path  %></li>
             </ul>
@@ -24,6 +25,10 @@
                  class: "btn btn-xs btn-danger", method: :delete) %></li>
             </ul>
           </div>
+         
         <% end %>
+        <div class="cover">
         </div>
     </div>
+    </div>
+  
